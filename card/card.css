@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+}
+.card{
+    background-color: rgb(255, 255, 255);
+    margin: 10px auto;
+    width: 300px;
+    height: 500px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius:20px ;
+}
+.card-img{
+    background-image: url("../img/asnim-ansari-SqYmTDQYMjo-unsplash.jpg");
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    
+}
+.btn-container{
+    margin: 5px;
+}
+.btn-feture{
+    min-width: 10px ;
+    padding: 3px 7px;
+    border: 1.4px solid rgb(211, 211, 211);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.btn-readmore{
+    min-width: 10px ;
+    padding: 10px 17px;
+    border: none;
+    background-color: rgb(181, 212, 250);
+    border-radius: 10px;
+    color: rgb(47, 111, 250);
+    font-weight: bold;
+    /* margin: 0px auto; */
+}
+h1{
+    margin: 10px 0px;
+}
+p{
+    color: rgb(154, 154, 154);
+      margin: 25px 0px;  
+      font-size: 1.2rem;
+}
+.container-center{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+#category{
+    margin: 10px;
+    margin-left: 40px;
+    display: flex;
+    gap: 10px;
+}
+.category-heading{
+    margin: 10px;
+ margin-left: 40px;
+}

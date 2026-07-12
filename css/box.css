@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    /* margin-left: 50px; */
+    /* margin-top: 50px; */
+    color: white;
+    margin: 10px;
+    padding: 50px;
+    width: 200px;
+    height: 250px;
+    border: 1px solid black;
+    /* border-width: 30px;
+    border-color: red; */
+     background-color: #ff0000;
+    border-radius:20px;
+    text-align: center;
+    box-sizing: border-box;
+    /* margin: 100px; */
+}
+.card-img{
+    background-image: url("../img/asnim-ansari-SqYmTDQYMjo-unsplash.jpg");
+    height: 300px;
+    width: 400px;
+    background-size: contain;
+    /* background-position: ; */
+    background-repeat: no-repeat;
+}

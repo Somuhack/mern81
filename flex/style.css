@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding:  0;
+    box-sizing: border-box;
+}
+.parent{
+display: flex;
+height: 100vh;
+flex-direction: column; 
+justify-content: space-between;
+align-items: end;
+}
+.child{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+.bg-red{
+    background-color: red;
+}
+.bg-green{
+    background-color: green;
+}
+.bg-blue{
+    background-color: blue;
+}
